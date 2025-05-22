@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthopedia India</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">  <!-- Hero Section -->  <header class="bg-green-700 text-white text-center py-10">
+    <h1 class="text-4xl font-bold">Welcome to Healthopedia India</h1>
+    <p class="text-lg mt-2">Simplifying health, medicine, and nursing education for everyone</p>
+  </header>  <!-- About + Profile -->  <section class="container mx-auto px-4 py-10 bg-white rounded-lg shadow mt-6">
+    <div class="flex flex-col md:flex-row items-center">
+      <img src="https://github.com/Healthopedia/healthopedia.github.io/blob/main/doctor.jpg?raw=true" 
+           alt="Doctor" class="w-40 h-40 rounded-full shadow-md mb-4 md:mb-0 md:mr-8">
+      <div>
+        <h2 class="text-2xl font-bold mb-2">About Healthopedia</h2>
+        <p>We provide easy-to-understand health content, medication info, and nursing guidance in Hindi and English. Join us to empower yourself with daily health knowledge.</p>
+      </div>
+    </div>
+  </section>  <!-- Medicine Section -->  <section class="container mx-auto px-4 py-10">
+    <h2 class="text-2xl font-bold mb-4 text-green-700">Common Medicines Explained</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-semibold text-lg mb-1">Paracetamol</h3>
+        <p>Used for fever and mild pain. Max dose: 4g/day. Overdose can damage liver.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-semibold text-lg mb-1">Amoxicillin</h3>
+        <p>Antibiotic for bacterial infections. Complete the full course to prevent resistance.</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <h3 class="font-semibold text-lg mb-1">ORS (Oral Rehydration Solution)</h3>
+        <p>Used to treat dehydration caused by diarrhea or vomiting. Mix in clean water.</p>
+      </div>
+    </div>
+  </section>  <!-- Blog Section -->  <section class="container mx-auto px-4 py-10 bg-gray-50">
+    <h2 class="text-2xl font-bold mb-4">Latest Articles</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li><strong>Paracetamol:</strong> Kab lena chahiye, kitni dose sahi hai?</li>
+      <li><strong>Antibiotics:</strong> Kya bina doctor ke lena chahiye?</li>
+      <li><strong>Nursing Tip:</strong> IV injection lagate waqt kin baaton ka dhyan rakhein?</li>
+    </ul>
+  </section>  <!-- Videos -->  <section class="bg-green-100 py-10">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold mb-4">Watch Our Reels & Videos</h2>
+      <p>Check our Instagram
